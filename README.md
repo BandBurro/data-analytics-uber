@@ -26,23 +26,38 @@ ___
 
 **Strategic Insight**: Surprisingly, Monday shows the highest booking volume, likely related to the evening rush hour pattern. Since weekends also show strong demand for entertainment purposes, offering targeted discounts to strategic entertainment locations could capture more weekend leisure traffic.
 
+___
+
+
 ![Bookings per Month](src/viz/bookings_per_month.png)
 
 **Strategic Insight**: Monthly trends reveal seasonal patterns that can inform dynamic pricing strategies and resource allocation across different time periods.
+
+___
+
 
 #### Vehicle Type Analysis
 ![Bookings by Vehicle Type](src/viz/bookings_by_vehicle_type.png)
 
 **Strategic Insight**: Customers predominantly let the app select vehicle types rather than choosing specific options. This is advantageous as it allows the algorithm to optimize for operational efficiency and customer satisfaction while maintaining flexibility in vehicle allocation.
 
+___
+
+
 ![Payment Methods by Vehicle Type](src/viz/payment_methods_by_vehicle_type.png)
 
 **Strategic Insight**: Payment preferences vary significantly by vehicle type, indicating different customer segments with distinct payment behaviors that can inform targeted marketing strategies.
+
+___
+
 
 #### Service Performance
 ![Booking Status Breakdown](src/viz/booking_status_breakdown.png)
 
 **Critical Operational Insight**: Driver cancellations nearly triple customer cancellations, revealing a significant operational challenge. This suggests potential driver satisfaction issues that could lead to customer dissatisfaction and operational instability. Implementing cancellation reason tracking would provide crucial diagnostic data for addressing root causes.
+
+___
+
 
 ![Payment Method Preference](src/viz/booking_status_breakdown.png)
 
@@ -50,9 +65,15 @@ ___
 
 **Market Intelligence**: UPI dominates as the preferred payment method, followed by cash, clearly indicating the Indian market context. This reveals that "Auto" refers to auto-rickshaws, a common Indian public transport method, providing crucial regional context for business strategy.
 
+___
+
+
 ![Top Customer Payment Methods](src/viz/top_customer_payment_methods.png)
 
 **Customer Segmentation**: Payment preferences of frequent customers show distinct patterns that can inform loyalty programs and personalized service offerings.
+
+___
+
 
 ### Data Schema
 The analysis is built on a comprehensive dataset with the following structure:
