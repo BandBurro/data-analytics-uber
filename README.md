@@ -17,26 +17,33 @@ This project provides deep insights into Uber ride patterns through comprehensiv
 
 #### Booking Patterns Over Time
 ![Bookings per Hour](src/viz/bookings_per_hour.png)
+
 *Peak booking hours and daily usage patterns*
 
 ![Bookings per Weekday](src/viz/bookings_per_weekday.png)
+
 *Weekly booking distribution showing weekend vs weekday preferences*
 
 ![Bookings per Month](src/viz/bookings_per_month.png)
+
 *Monthly trends and seasonal patterns*
 
 #### Vehicle Type Analysis
 ![Bookings by Vehicle Type](src/viz/bookings_by_vehicle_type.png)
+
 *Popularity distribution across different Uber vehicle categories*
 
 ![Payment Methods by Vehicle Type](src/viz/payment_methods_by_vehicle_type.png)
+
 *Payment preference correlation with vehicle type selection*
 
 #### Service Performance
 ![Booking Status Breakdown](src/viz/booking_status_breakdown.png)
+
 *Service completion rates and cancellation analysis*
 
 ![Top Customer Payment Methods](src/viz/top_customer_payment_methods.png)
+
 *Payment method preferences of frequent customers*
 
 ### Data Schema
