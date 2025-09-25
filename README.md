@@ -1,10 +1,52 @@
 # Uber Ride Analytics
 
-FastAPI APIs over Uber ride dataset with CSV (DuckDB) and Postgres backends.
-## Analytics
-### test
-<img width="640" height="480" alt="booking_status_breakdown" src="https://github.com/user-attachments/assets/f5a9994b-85a1-4f59-89a4-20e9ae7daa07" />
-test
+A comprehensive data analytics project exploring Uber ride patterns with FastAPI APIs, ETL pipelines, and interactive visualizations. Features both CSV (DuckDB/Pandas) and Postgres backends for flexible data analysis.
+
+## Analytics & Insights
+
+This project provides deep insights into Uber ride patterns through comprehensive data analysis and visualizations:
+
+### Key Metrics Analyzed
+- **150,000+ ride bookings** across different vehicle types
+- **Time-based patterns**: hourly, daily, and monthly booking trends
+- **Customer behavior**: payment preferences and booking frequency
+- **Service performance**: completion rates and cancellation patterns
+- **Vehicle type preferences**: demand distribution across ride options
+
+### Visualizations
+
+#### Booking Patterns Over Time
+![Bookings per Hour](src/viz/bookings_per_hour.png)
+*Peak booking hours and daily usage patterns*
+
+![Bookings per Weekday](src/viz/bookings_per_weekday.png)
+*Weekly booking distribution showing weekend vs weekday preferences*
+
+![Bookings per Month](src/viz/bookings_per_month.png)
+*Monthly trends and seasonal patterns*
+
+#### Vehicle Type Analysis
+![Bookings by Vehicle Type](src/viz/bookings_by_vehicle_type.png)
+*Popularity distribution across different Uber vehicle categories*
+
+![Payment Methods by Vehicle Type](src/viz/payment_methods_by_vehicle_type.png)
+*Payment preference correlation with vehicle type selection*
+
+#### Service Performance
+![Booking Status Breakdown](src/viz/booking_status_breakdown.png)
+*Service completion rates and cancellation analysis*
+
+![Top Customer Payment Methods](src/viz/top_customer_payment_methods.png)
+*Payment method preferences of frequent customers*
+
+### Data Schema
+The analysis is built on a comprehensive dataset with the following structure:
+- **Date/Time**: Temporal analysis capabilities
+- **Booking ID**: Unique identifier for each ride
+- **Customer ID**: Customer behavior tracking
+- **Vehicle Type**: Service category analysis
+- **Payment Method**: Transaction preference insights
+- **Booking Status**: Service performance metrics
 
 ## Setup
 
