@@ -20,6 +20,8 @@ This project provides deep insights into Uber ride patterns through comprehensiv
 
 **Strategic Insight**: The clear winner is the 18th hour (6 PM), indicating peak demand when people leave work. This presents an opportunity to offer strategic discounts to high-traffic areas during this time window, potentially driving more app usage and customer engagement.
 
+___
+
 ![Bookings per Weekday](src/viz/bookings_per_weekday.png)
 
 **Strategic Insight**: Surprisingly, Monday shows the highest booking volume, likely related to the evening rush hour pattern. Since weekends also show strong demand for entertainment purposes, offering targeted discounts to strategic entertainment locations could capture more weekend leisure traffic.
