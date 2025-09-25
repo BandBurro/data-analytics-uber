@@ -58,9 +58,6 @@ ___
 
 ___
 
-
-![Payment Method Preference](src/viz/booking_status_breakdown.png)
-
 <img width="640" height="480" alt="payment_method_distribution" src="https://github.com/user-attachments/assets/525b09e7-ca31-44b2-8781-cf3668733cf0" />
 
 **Market Intelligence**: UPI dominates as the preferred payment method, followed by cash, clearly indicating the Indian market context. This reveals that "Auto" refers to auto-rickshaws, a common Indian public transport method, providing crucial regional context for business strategy.
