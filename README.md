@@ -18,33 +18,39 @@ This project provides deep insights into Uber ride patterns through comprehensiv
 #### Booking Patterns Over Time
 ![Bookings per Hour](src/viz/bookings_per_hour.png)
 
-*Peak booking hours and daily usage patterns*
+**Strategic Insight**: The clear winner is the 18th hour (6 PM), indicating peak demand when people leave work. This presents an opportunity to offer strategic discounts to high-traffic areas during this time window, potentially driving more app usage and customer engagement.
 
 ![Bookings per Weekday](src/viz/bookings_per_weekday.png)
 
-*Weekly booking distribution showing weekend vs weekday preferences*
+**Strategic Insight**: Surprisingly, Monday shows the highest booking volume, likely related to the evening rush hour pattern. Since weekends also show strong demand for entertainment purposes, offering targeted discounts to strategic entertainment locations could capture more weekend leisure traffic.
 
 ![Bookings per Month](src/viz/bookings_per_month.png)
 
-*Monthly trends and seasonal patterns*
+**Strategic Insight**: Monthly trends reveal seasonal patterns that can inform dynamic pricing strategies and resource allocation across different time periods.
 
 #### Vehicle Type Analysis
 ![Bookings by Vehicle Type](src/viz/bookings_by_vehicle_type.png)
 
-*Popularity distribution across different Uber vehicle categories*
+**Strategic Insight**: Customers predominantly let the app select vehicle types rather than choosing specific options. This is advantageous as it allows the algorithm to optimize for operational efficiency and customer satisfaction while maintaining flexibility in vehicle allocation.
 
 ![Payment Methods by Vehicle Type](src/viz/payment_methods_by_vehicle_type.png)
 
-*Payment preference correlation with vehicle type selection*
+**Strategic Insight**: Payment preferences vary significantly by vehicle type, indicating different customer segments with distinct payment behaviors that can inform targeted marketing strategies.
 
 #### Service Performance
 ![Booking Status Breakdown](src/viz/booking_status_breakdown.png)
 
-*Service completion rates and cancellation analysis*
+**Critical Operational Insight**: Driver cancellations nearly triple customer cancellations, revealing a significant operational challenge. This suggests potential driver satisfaction issues that could lead to customer dissatisfaction and operational instability. Implementing cancellation reason tracking would provide crucial diagnostic data for addressing root causes.
+
+![Payment Method Preference](src/viz/booking_status_breakdown.png)
+
+<img width="640" height="480" alt="payment_method_distribution" src="https://github.com/user-attachments/assets/525b09e7-ca31-44b2-8781-cf3668733cf0" />
+
+**Market Intelligence**: UPI dominates as the preferred payment method, followed by cash, clearly indicating the Indian market context. This reveals that "Auto" refers to auto-rickshaws, a common Indian public transport method, providing crucial regional context for business strategy.
 
 ![Top Customer Payment Methods](src/viz/top_customer_payment_methods.png)
 
-*Payment method preferences of frequent customers*
+**Customer Segmentation**: Payment preferences of frequent customers show distinct patterns that can inform loyalty programs and personalized service offerings.
 
 ### Data Schema
 The analysis is built on a comprehensive dataset with the following structure:
